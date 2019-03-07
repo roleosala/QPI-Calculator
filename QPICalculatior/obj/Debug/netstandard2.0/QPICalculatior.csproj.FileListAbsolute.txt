@@ -1,0 +1,12 @@
+/Users/roleosala/Projects/QPICalculatior/QPICalculatior/bin/Debug/netstandard2.0/QPICalculatior.deps.json
+/Users/roleosala/Projects/QPICalculatior/QPICalculatior/bin/Debug/netstandard2.0/QPICalculatior.dll
+/Users/roleosala/Projects/QPICalculatior/QPICalculatior/bin/Debug/netstandard2.0/QPICalculatior.pdb
+/Users/roleosala/Projects/QPICalculatior/QPICalculatior/obj/Debug/netstandard2.0/QPICalculatior.csprojAssemblyReference.cache
+/Users/roleosala/Projects/QPICalculatior/QPICalculatior/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/roleosala/Projects/QPICalculatior/QPICalculatior/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/roleosala/Projects/QPICalculatior/QPICalculatior/obj/Debug/netstandard2.0/QPICalculatior.csproj.CoreCompileInputs.cache
+/Users/roleosala/Projects/QPICalculatior/QPICalculatior/obj/Debug/netstandard2.0/QPICalculatior.AssemblyInfoInputs.cache
+/Users/roleosala/Projects/QPICalculatior/QPICalculatior/obj/Debug/netstandard2.0/QPICalculatior.AssemblyInfo.cs
+/Users/roleosala/Projects/QPICalculatior/QPICalculatior/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/roleosala/Projects/QPICalculatior/QPICalculatior/obj/Debug/netstandard2.0/QPICalculatior.dll
+/Users/roleosala/Projects/QPICalculatior/QPICalculatior/obj/Debug/netstandard2.0/QPICalculatior.pdb

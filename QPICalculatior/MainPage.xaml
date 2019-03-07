@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:QPICalculatior" x:Class="QPICalculatior.MainPage">
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="10" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Label x:Name="eqTxt" Text="" Grid.Row="1" Grid.ColumnSpan="3" FontSize="26"/>
+            <Label x:Name="result" Text="" Grid.Row="2" Grid.ColumnSpan="3" FontSize="22" HorizontalTextAlignment="End"/>
+            <Button Text="A" Grid.Row="3" Grid.Column="0" Clicked="OnSelect"/>
+            <Button Text="B+" Grid.Row="3" Grid.Column="1" Clicked="OnSelect"/>
+            <Button Text="B" Grid.Row="3" Grid.Column="2" Clicked="OnSelect"/>
+            <Button Text="C+" Grid.Row="4" Grid.Column="0" Clicked="OnSelect"/>
+            <Button Text="C" Grid.Row="4" Grid.Column="1" Clicked="OnSelect"/>
+            <Button Text="D" Grid.Row="4" Grid.Column="2" Clicked="OnSelect"/>
+            <Button Text="F/FD" Grid.Row="5" Grid.Column="0" Clicked="OnSelect"/>
+            <Button Text="clr" Grid.Row="5" Grid.Column="1" Clicked="onClr"/>
+            <Button Text="=" Grid.Row="5" Grid.Column="2" Clicked="onEq"/>
+        </Grid>
+    </StackLayout>
+</ContentPage>
