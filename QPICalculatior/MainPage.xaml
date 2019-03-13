@@ -15,7 +15,7 @@
                 <RowDefinition Height="*" />
                 <RowDefinition Height="*" />
             </Grid.RowDefinitions>
-            <Label x:Name="eqTxt" Text="" Grid.Row="1" Grid.ColumnSpan="3" FontSize="26"/>
+            <Label x:Name="eqTxt" Text="" Grid.Row="1" Grid.ColumnSpan="3" FontSize="18"/>
             <Label x:Name="result" Text="" Grid.Row="2" Grid.ColumnSpan="3" FontSize="22" HorizontalTextAlignment="End"/>
             <Button Text="A" Grid.Row="3" Grid.Column="0" Clicked="OnSelect"/>
             <Button Text="B+" Grid.Row="3" Grid.Column="1" Clicked="OnSelect"/>
@@ -24,7 +24,7 @@
             <Button Text="C" Grid.Row="4" Grid.Column="1" Clicked="OnSelect"/>
             <Button Text="D" Grid.Row="4" Grid.Column="2" Clicked="OnSelect"/>
             <Button Text="F/FD" Grid.Row="5" Grid.Column="0" Clicked="OnSelect"/>
-            <Button Text="clr" Grid.Row="5" Grid.Column="1" Clicked="onClr"/>
+            <Button x:Name="clr" Text="clr" Grid.Row="5" Grid.Column="1" Clicked="onClr"/>
             <Button Text="=" Grid.Row="5" Grid.Column="2" Clicked="onEq"/>
         </Grid>
     </StackLayout>

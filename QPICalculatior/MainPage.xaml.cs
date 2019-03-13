@@ -11,6 +11,7 @@ namespace QPICalculatior
     {
         int c = 0;
         double total = 0;
+        int eqC = 0;
         public MainPage()
         {
             InitializeComponent();
@@ -20,6 +21,11 @@ namespace QPICalculatior
         {
             Button button = (Button)sender;
             String txt = button.Text;
+            if (eqC > 0)
+            {
+                clear();
+                eqC = 0;
+            }
             switch (txt)
             {
                 case "A":
@@ -60,17 +66,21 @@ namespace QPICalculatior
         //This Function clears all the pre-stored data and clears the texts
         void onClr(Object sender, EventArgs e)
         {
-            Button button = (Button)sender;
-            eqTxt.Text = null;
-            result.Text = null;
-            total = 0;
-            c = 0;
-
+            clear();
         }
         //This functions displays the result of your given grade/s
         void onEq(Object sender, EventArgs e)
         {
             result.Text = total.ToString() + "/" + (c * 3).ToString() + " = " + (total / (c * 3)).ToString();
+            eqC++;
+        }
+
+        public void clear()
+        {
+            eqTxt.Text = null;
+            result.Text = null;
+            total = 0;
+            c = 0;
         }
     }
 }
